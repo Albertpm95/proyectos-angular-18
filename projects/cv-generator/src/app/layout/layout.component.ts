@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core"
 
 @Component({
   standalone: true,
@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   imports: [],
   styleUrl: `./layout.component.scss`,
 })
-export class LayoutComponent {}
+export class LayoutComponent {
+  constructor() { }
+}
